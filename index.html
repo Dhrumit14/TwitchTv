@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Twitch.tv Live Streaming</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <!-- Font Awesome CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+    <!-- Custom CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+
+
+
+
+    <script src="js/script.js"></script>
+
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Start Logo Section -->
+    <section id="logo-section" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="logo text-center">
+                        <h1>Twitch.tv</h1>
+                        <span>Your online Streaming</span>
+                    </div>
+                </div>
+                <div class="col-md-6 myRadio">
+
+                    <div class="col-md-3">
+                        <input type="radio" id="SelectRadio" class="SelectRadioOnline" name="myradio" value="Online"><span id="radioMargin">Online</span></input>
+                    </div>
+                    <div class="col-md-3">
+                        <input type="radio" id="SelectRadio" class="SelectRadioAll" name="myradio" value="All" checked><span id="radioMargin">All</span></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Start Main Body Section -->
+    <div class="mainbody-section text-center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-3">
+
+                    <div class="menu-item blue">
+                        <div>
+                            <a class="first" href="#feature-modal" target="_blank" data-toggle="modal">
+                                <i id="addAndRemove1" class="fa fa-youtube-play"></i>
+                                <p>Cretetion</p>
+
+                            </a>
+                            <div class="LiveStreamMargin">
+                                <i id="ForFontIconToggle1"></i>
+                            </div>
+                            <div class="col-md-12 StatusDescription">
+                                <marquee>
+
+                                    <p id="CretetionDescription">Offline</p>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item green">
+                        <div>
+                            <a class="second" href="#portfolio-modal" target="_blank" data-toggle="modal">
+                                <i id="addAndRemove2" class="fa fa-youtube-play"></i>
+                                <p>Habathcx</p>
+                            </a>
+                            <div class="LiveStreamMargin">
+                                <i id="ForFontIconToggle2"></i>
+                            </div>
+                            <div class="col-md-12 StatusDescription">
+                                <marquee>
+
+                                    <p id="HabathcxDescription">Offline</p>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ipad menu-item light-red">
+                        <div>
+                            <a class="third" href="#about-modal" target="_blank" data-toggle="modal">
+                                <i id="addAndRemove3" class="fa fa-youtube-play"></i>
+                                <p>OgamingSC2</p>
+                            </a>
+                            <div class="LiveStreamMargin">
+                                <i id="ForFontIconToggle3"></i>
+                            </div>
+                            <div class="col-md-12 StatusDescription">
+                                <marquee>
+
+                                    <p id="OgamingDescription">Offline</p>
+                                </marquee>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+
+                <div class="col-md-6">
+
+                    <!-- Start Carousel Section -->
+                    <div class="home-slider">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="padding-bottom: 30px;">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="https://s25.postimg.org/i69nxo8qn/twitch-01.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="https://s25.postimg.org/kc3ys6c73/twitch-02.png" class="img-responsive" alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="https://s25.postimg.org/9dsp9znlr/twitch-03.jpg" class="img-responsive" alt="">
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- Start Carousel Section -->
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="menu-item color responsive">
+                                <div>
+                                    <a class="fourth" href="#service-modal" target="_blank" data-toggle="modal">
+                                        <i id="addAndRemove4" class="fa fa-youtube-play"></i>
+                                        <p>Freecodecamp</p>
+                                    </a>
+                                    <div class="LiveStreamMargin">
+                                        <i id="ForFontIconToggle4"></i>
+                                    </div>
+                                    <div class="col-md-12 StatusDescription">
+                                        <marquee>
+
+                                            <p id="FreecodecampDescription">Offline</p>
+                                        </marquee>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="menu-item light-orange responsive-2">
+                                <div>
+                                    <a class="fifth" href="#team-modal" target="_blank" data-toggle="modal">
+                                        <i id="addAndRemove5" class="fa fa-youtube-play"></i>
+                                        <p>Storbeck</p>
+                                    </a>
+                                    <div class="LiveStreamMargin">
+                                        <i id="ForFontIconToggle5"></i>
+                                    </div>
+                                    <div class="col-md-12 StatusDescription">
+                                        <marquee>
+
+                                            <p id="StorbeckDescription">Offline</p>
+                                        </marquee>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3">
+
+                    <div class="menu-item light-red">
+                        <div>
+                            <a class="sixth" href="#contact-modal" target="_blank" data-toggle="modal">
+                                <i id="addAndRemove6" class="fa fa-youtube-play"></i>
+                                <p>Esl_sc2</p>
+                            </a>
+                            <div class="LiveStreamMargin">
+                                <i id="ForFontIconToggle6"></i>
+                            </div>
+                            <div class="col-md-12 StatusDescription">
+                                <marquee>
+
+                                    <p id="Esl_sc2Description">Offline</p>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item color">
+                        <div>
+                            <a class="seventh" href="#testimonial-modal" target="_blank" data-toggle="modal">
+                                <i id="addAndRemove7" class="fa fa-youtube-play"></i>
+                                <p>Noobs2ninjas</p>
+                            </a>
+                            <div class="LiveStreamMargin">
+                                <i id="ForFontIconToggle7"></i>
+                            </div>
+                            <div class="col-md-12 StatusDescription">
+                                <marquee>
+
+                                    <p id="Noobs2ninjasDescription">Offline</p>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="menu-item blue">
+                        <div>
+                            <a class="eigth" href="#news-modal" target="_blank" data-toggle="modal">
+                                <i id="addAndRemove8" class="fa fa-youtube-play"></i>
+                                <p>RobotCaleb</p>
+                            </a>
+                            <div class="LiveStreamMargin">
+                                <i id="ForFontIconToggle8"></i>
+                            </div>
+                            <div class="col-md-12 StatusDescription">
+                                <marquee>
+
+                                    <p id="RobotCalebDescription">Offline</p>
+                                </marquee>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p style="color:antiquewhite;">&copy; 2017 by Dhrumit Thakkar
+                <p>
+        </footer>
+    </div>
+    <!-- End Main Body Section -->
+
+
+
+</body>
+
+</html>
